@@ -1,7 +1,3 @@
-Below is an example README.md you can include in your GitHub repository:
-
----
-
 # GitHub SSH Keys Importer
 
 This Bash script retrieves SSH public keys from a specified GitHub account and configures your SSH daemon to authenticate using these keys. It saves the keys in a dedicated file within your home directory and creates a separate SSH daemon configuration file that references this file. This approach ensures that automatically generated keys by other system services (for example, ProxmoxVE) remain unaffected.
