@@ -39,7 +39,7 @@ This Bash script retrieves SSH public keys from a specified GitHub account and c
    ./ghkeys.sh
    ```
 
-**Or run the script directly with parameter of your Github Username
+**Or run the script directly with parameter of your Github Username**
   ```bash
   ./ghkeys.sh Micinek
   ```
