@@ -30,28 +30,19 @@ This Bash script retrieves SSH public keys from a specified GitHub account and c
 
 ## Running localy
 
-1. **Clone the Repository:**
+**Clone the Repository, Make the Script Executable, and run the script**
 
    ```bash
    git clone https://github.com/Micinek/ghkeys.git
    cd ghkeys
-   ```
-
-2. **Make the Script Executable:**
-
-   ```bash
    chmod +x ghkeys.sh
+   ./ghkeys.sh
    ```
 
-## Running directly from web
-
-You can run the script directly from the GitHub repository without needing to clone or install anything locally. Just execute the following command:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/Micinek/ghkeys/main/ghkeys.sh | bash
-```
-
-This command uses `curl` to fetch the latest version of `ghkeys.sh` from the [ghkeys repository](https://github.com/Micinek/ghkeys/) and pipes it directly to `bash` for execution.
+**Or run the script directly with parameter of your Github Username
+  ```bash
+  ./ghkeys.sh Micinek
+  ```
 
 ## Usage
 
