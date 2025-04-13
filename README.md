@@ -40,7 +40,7 @@ This Bash script retrieves SSH public keys from a specified GitHub account and c
 2. **Make the Script Executable:**
 
    ```bash
-   chmod +x import_github_keys.sh
+   chmod +x ghkeys.sh
    ```
 
 ## Running directly from web
